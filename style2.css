@@ -1,0 +1,95 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .task-box {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+    .task-box h2 {
+        text-align: center;
+    }
+    .task-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .task-form input[type="text"],
+    .task-form textarea {
+        width: calc(50% - 10px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 7px;
+    }
+    .task-form input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .task-list {
+        list-style: none;
+        padding: 0;
+    }
+    .task-item {
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .task-item button {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin-left: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    form{
+        margin: auto;
+    }
+    .footer {
+        /* position: fixed; */
+        bottom: 0;
+        text-align: center;
+        /* margin-top: 50px; */
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+    }
+    @media only screen and (max-width:500px){
+        input{
+            width: 90%;
+        }
+        .task-form input[type="text"]{
+            width: 90%;
+        }
+        
+    }
+    
